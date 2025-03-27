@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    background-color:rgb(36, 35, 33);
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    z-index:0;
+ 
+
+}
+
+#container{
+    display:flex;
+    background-color: rgb(64, 64, 102);
+    height:700px;
+    width:700px;
+    flex-direction:column;
+    box-shadow:0 0 10pc black;
+    
+    
+}
+
+#Header{
+    height:100px;
+    width:700px;
+    background-color:rgb(37, 40, 43);
+    display:flex;
+    color:aliceblue;
+    flex-direction:column;
+    justify-content:center;
+    font-weight: bold;
+    font-size:20px
+}
+#gamename{
+    
+    height:50px;
+    width:700px;
+    display:flex;
+    justify-content:center;
+   align-items:center;
+}
+
+#welcome{
+    height:50px;
+    width:700px;
+   display:flex;
+   justify-content:center;
+
+  
+}
+#bottom{
+    display:flex;
+   
+    height:300px;
+    
+    align-items:center;
+    justify-content:center;
+}
+
+#numberchosen{
+   
+    height:300px;
+    width:233.33px;
+    display:flex;
+    font-weight:bold;
+    align-items:center;
+    font-size:50px;
+    justify-content:center;
+    color:green
+
+}
+
+#midcontainer{
+    
+    height:300px;
+    width:233.33px;
+    display:flex;
+    flex-direction:column;
+}
+#mult{
+display:flex;
+
+height:200px;
+
+align-items:center;
+justify-content:center;
+font-size:50px;
+font-weight:bold;
+
+}
+#equal{
+    display:flex;
+    
+     height:100px;
+    justify-content:center;
+    font-weight:bold;
+    font-size:80px;
+    justify-content:center;
+    align-items: center;
+}
+
+#random{
+    display:flex;
+color:red;
+height:300px;
+width:233.33px;
+align-items:center;
+justify-content:center;
+font-weight:bold;
+font-size:50px;
+}
+
+#bottomup{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+#answer{
+    display:flex;
+   flex-direction:colunmn;
+height:100px;
+width:700px;
+align-items:center;
+justify-content:center;
+
+}
+
+#correction{
+    display:flex;
+  background-color: aliceblue;
+height:100px;
+width:700px;
+align-items:center;
+justify-content:center;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+#answerinput{
+    border:none;
+    text-align:center;
+    height:70px;
+    width:350px;
+    border-radius:20px;
+    border:2px solid rgb(37, 40, 43); 
+    background-color:aliceblue
+
+
+}
+
+#subm{
+    height:100px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+    
+
+}
+
+#btn{
+
+    height:80px;
+    width:250px;
+   border-radius:20px;
+    background-color: rgb(13, 245, 90);
+    transition:transform 1.5s ease;
+    margin-left:120px;
+
+}
+
+#reload{
+    margin-left:10px;
+    background-color:black;
+    color:aliceblue;
+    border:none;
+    border:2px solid rgb(37, 40, 43); 
+    border-radius:20px;
+    box-shadow:0 0 10pc black;
+    height:30px;
+    width:40px;
+    opacity:0;
+    transition: opacity 2s ease
+}
+
+#rightpane{
+    display:flex;
+    position:absolute;
+    height:210px;
+    width:140px;
+    border-radius:10px;
+    border:6px solid rgb(64, 64, 102);
+    background-color:rgb(230, 230, 230);
+    margin-left:120px;
+    z-index:-1;
+    transition:transform 2s ease;
+    box-shadow: 0 0 10px black;
+    align-items:center;
+    justify-content:center
+
+   
+}
+
+#newnumber{
+    text-align:center;
+    margin-left:10px;
+    background-color:black;
+    color:aliceblue;
+    border:none;
+    border:2px solid rgb(37, 40, 43); 
+    border-radius:20px;
+    box-shadow:0 0 10pc black;
+    height:50px;
+    width:50px;
+    opacity:0;
+    transition: opacity 2s ease;
+    
+}
