@@ -23,7 +23,7 @@ submitbutton.addEventListener("mouseout",function(){
 
 
 submitbutton.addEventListener("click",function(){
-    if(namein.value!=="" && table.value>=1 && table.value<=12){
+    if(namein.value!=="" && table.value>=1 && table.value<=50){
         localStorage.setItem("name",namein.value)
         localStorage.setItem("number",table.value)
         window.location.href="Game.html"
